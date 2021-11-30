@@ -1,0 +1,9 @@
+.contact {
+  padding: 36px 0 13px;
+}
+.contact__row {
+  display: flex;
+  column-gap: 47px;
+}
+
+/*# sourceMappingURL=contact.css.map */

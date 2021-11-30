@@ -1,0 +1,41 @@
+.product {
+  padding: 116px 0;
+  &__row {
+    display: flex;
+    column-gap: 53px;
+  }
+  &__title {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 133.69%;
+    text-align: center;
+    color: #1F2E35;
+    margin-bottom: 47px;
+  }
+  &__content {
+
+    &-img  {
+      margin-bottom: 16px;
+    }
+    &-title {
+      font-family: Roboto, sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 28px;
+      line-height: 133.69%;
+      color: #EE4248;
+      margin-bottom: 15px;
+    }
+    &-text {
+      font-family: Roboto, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 150%;
+      color: #30444E;
+      margin-bottom: 15px;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.information {
+  padding: 110px 0 179px;
+  &__row{
+    display: flex;
+    column-gap: 20px;
+  }
+  &__title {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 133.69%;
+    color: #1F2E35;
+    margin-bottom: 24px;
+    &-red {
+      color: #EE4248;
+    }
+  }
+  &__descr {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 29px;
+    color: #30444E;
+    margin-bottom: 36px;
+  }
+
+}

@@ -1,0 +1,37 @@
+.dsi {
+  padding: 0 0 63px;
+  background: #F7F7F7;
+  &__row {
+    display: flex;
+    column-gap: 90px;
+  }
+  &__content {
+    padding-top: 60px;
+  }
+  &__title {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 133.69%;
+    color: #1F2E35;
+    margin-bottom: 24px;
+    &-red {
+      color: #EE4248;
+    }
+  }
+  &__text {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #30444E;
+    &_top {
+      margin-bottom: 24px;
+    }
+    &-red {
+      color: #EE4248;
+    }
+  }
+}
